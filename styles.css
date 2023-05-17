@@ -10,12 +10,6 @@
     background: linear-gradient(180deg, #e29828 0%, rgba(67, 44, 10, 0) 60.94%);
 }
 
-.header {
-}
-
-.header__container {
-}
-
 .header__logo {
     display: flex;
     justify-content: center;
@@ -109,9 +103,6 @@
     margin-bottom: 20px;
 }
 
-.footer__container {
-}
-
 .footer__social {
     display: flex;
     justify-content: center;
@@ -120,9 +111,6 @@
 
 .link_insta {
     display: flex;
-}
-
-.insta_logo {
 }
 
 .link_text {
