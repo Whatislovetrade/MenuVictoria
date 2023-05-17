@@ -1,0 +1,143 @@
+.wrapper {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.wrapper__container {
+    padding: 75px 25px 0px;
+    background: linear-gradient(180deg, #e29828 0%, rgba(67, 44, 10, 0) 60.94%);
+}
+
+.header {
+}
+
+.header__container {
+}
+
+.header__logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+}
+
+.header_button {
+    margin-bottom: 80px;
+}
+
+.header__btn {
+    background: hsla(34, 94%, 69%, 0.615);
+    box-shadow: 6px 0px 16px rgba(149, 149, 149, 0.49);
+    border-radius: 24px;
+    transition: all 0.1s ease-in;
+}
+
+.header__btn:hover {
+    background-color: hsla(34, 94%, 69%, 0.345);
+    transform: scale(0.9);
+}
+
+.header__btn:active {
+    transform: scale(1);
+}
+
+@media (max-width: 320px) {
+    .header__btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 70px;
+    }
+}
+
+@media (min-width: 324px) {
+    .header__btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80px;
+        width: 300px;
+        margin: 0 auto;
+    }
+}
+
+.btn {
+    font-family: 'Nunito';
+    font-size: 64px;
+    line-height: 37px;
+    color: #a42828;
+}
+
+@media (max-width: 320px) {
+    .btn {
+        font-size: 50px;
+    }
+}
+
+.header__text {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 25px;
+    text-align: center;
+    color: #a42828;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-transform: uppercase;
+    margin-bottom: 102px;
+}
+
+@media (max-width: 320px) {
+    .header__text {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 700;
+        font-style: italic;
+        font-size: 25px;
+        text-align: center;
+        color: #a42828;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        text-transform: uppercase;
+    }
+}
+
+.footer {
+    margin-bottom: 20px;
+}
+
+.footer__container {
+}
+
+.footer__social {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.link_insta {
+    display: flex;
+}
+
+.insta_logo {
+}
+
+.link_text {
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    letter-spacing: 0.04em;
+    text-transform: lowercase;
+    color: #a42828;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width: 320px) {
+    .link_text {
+        font-size: 24px;
+    }
+}
